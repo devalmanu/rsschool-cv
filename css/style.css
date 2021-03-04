@@ -1,0 +1,114 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input, button, textarea{
+	font-family: inherit;
+}
+input::-ms-clear{
+   display: none;
+}
+ul {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+   color: rgb(247, 245, 159);
+   margin-left: 10px;
+   transition: .3s;
+}
+a:hover, a:active {
+   outline: none;
+   color: rgb(231, 229, 77);
+}
+body {
+   font-family: 'Montserrat', 'Arial', sans-serif;
+   font-weight: 400;
+	font-size: 16px;
+	min-width: 320px;
+   line-height: 1.7;
+   color: #fff;
+   background-color: #696385;
+}
+.about {
+   padding: 2.5em 0;
+}
+h1, h2 {
+   text-transform: uppercase;
+   font-size: 1.3em;
+   text-align: center;
+   margin-bottom: 1.8em;
+}
+.container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0px auto;
+   display: flex;
+   flex-wrap: wrap;
+   vertical-align: top;
+   padding: 3em 2em 3em 4em;
+   border-radius: 15px;
+   border-radius: 20px;
+   background: #5a5572;
+   box-shadow:  20px 20px 60px #4d4861, -20px -20px 60px #686283;
+}
+.about-resume {
+   width: 60%;
+}
+.container-img {
+   width: 40%;
+   padding: 0 1em;
+}
+.about-photo {
+   width: 100%;
+   max-width: 700px;
+   margin: auto;
+}
+.about-photo__img {
+   width: 100%;
+   height: 420px;
+   background-image: url('../img/it-developer.jpg');
+   background-position: top center;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.sprite-container {
+   padding-top: 1.5em;
+   width: 100%;
+   height: 230px;
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+.sprite-img {
+   height: 200px;
+   width: 126px;
+   background: url('../img/sprite-zombie.png') 0px 0px;
+   animation: play 0.8s steps(9) infinite, step 9s linear infinite;
+   position: absolute;
+   left: 0;
+}
+@keyframes play {
+   100% {
+      background-position: -1154px;
+   }
+}
+@keyframes step {
+   100% {
+      left: 100%;
+   }
+}
+@media screen and (max-width: 997px) {
+   .about-resume, .container-img {
+      width: 100%;
+   }
+   
+}
