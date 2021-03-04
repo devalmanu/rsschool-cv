@@ -8,3 +8,4 @@
 6. Experience: course WayUp profession of 5 week, course Web-start (Artiom Islamov)
 7. Education: Belorussian National States University graduate in 2019
 8. English: A2-B1
+9. Live in Minsk, work HTML coder
