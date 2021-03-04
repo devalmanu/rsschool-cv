@@ -6,5 +6,5 @@
 5. Code examples:  
 	https://devalmanu.github.io, https://github.com/devalmanu/ActiveBox, https://github.com/devalmanu/ITF-test-task
 6. Experience: course WayUp profession of 5 week, course Web-start (Artiom Islamov)
-7. Education: Belorussian National States University
+7. Education: Belorussian National States University graduate in 2019
 8. English: A2-B1
