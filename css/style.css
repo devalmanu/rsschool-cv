@@ -54,10 +54,12 @@ h1, h2 {
    display: flex;
    flex-wrap: wrap;
    vertical-align: top;
+}
+.container-about {
    padding: 3em 2em 3em 4em;
    border-radius: 15px;
    border-radius: 20px;
-   background: #5a5572;
+   background:#787297;
    box-shadow:  20px 20px 60px #4d4861, -20px -20px 60px #686283;
 }
 .about-resume {
@@ -80,6 +82,11 @@ h1, h2 {
    background-size: contain;
    background-repeat: no-repeat;
 }
+.animation {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
 .sprite-container {
    padding-top: 1.5em;
    width: 100%;
@@ -92,7 +99,7 @@ h1, h2 {
    height: 200px;
    width: 126px;
    background: url('../img/sprite-zombie.png') 0px 0px;
-   animation: play 0.8s steps(9) infinite, step 9s linear infinite;
+   animation: play 0.7s steps(9) infinite, step 9s linear infinite;
    position: absolute;
    left: 0;
 }
@@ -105,6 +112,54 @@ h1, h2 {
    100% {
       left: 100%;
    }
+}
+.footer-info {
+   background: #5a5572;
+   box-shadow:  rgb(77 72 97) 19px -20px 60px, rgb(104 98 131) -20px 20px 60px;
+   padding: 3em 0 2em;
+}
+.footer-info__container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0px auto;
+}
+.wrapper {
+   width: 100%;
+   max-width: 300px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+}
+.footer-info__item {
+   margin: 0 15px;
+   display: flex;
+   align-items: center;
+}
+.course-img {
+   width: 100%;
+   max-width: 60px;
+   height: auto;
+   vertical-align: middle;
+}
+.course-img-1 {
+   max-width: 2em;
+}
+.footer-subtitle {
+   padding-top: 1.5em;
+   text-align: center;
+}
+.footer-subtitle:before {
+   content: "";
+   display: inline-block;
+   position: relative;
+   width: 300px;
+   height: 1px;
+   background-color:#b6b6b685;
+   top: -10px;
+   left: 0;
+}
+.footer-subtitle p {
+   font-size: 0.9em;
 }
 @media screen and (max-width: 997px) {
    .about-resume, .container-img {
