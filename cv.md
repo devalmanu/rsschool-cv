@@ -1,9 +1,10 @@
 ## Valiantsina Andreyeva
 ============
 ## Contact Info
-	* e-mail: manuilova-1986@mail.ru, 
-	* Telegram: @valiamanu, 
-	* linkedin: https://www.linkedin.com/in/valiantsina-andreyeva/
+* <strong>e-mail:</strong> manuilova-1986@mail.ru
+* <strong>Telegram:</strong> @valiamanu
+* <strong>linkedin:</strong> https://www.linkedin.com/in/valiantsina-andreyeva/
+* <strong>GitHub:</strong> https://github.com/devalmanu/
 3. Summary: I have a desire to become a Front-end developer, I go to that goal, I constantly study and practice. I want to get good knowledge of java Script to develop skills in programming
 4. Skills: HTML5, CSS3 (sass/scss), bootstrap 4, JQuerty, JavaScript (basic level), Gulp, Wordpress (PHP)
 5. Code examples:  
