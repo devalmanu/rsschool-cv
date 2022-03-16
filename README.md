@@ -1,2 +1,1 @@
-# rsschool-cv
-rsschool-cv
+https://devalmanu.github.io/rsschool-cv/cv
