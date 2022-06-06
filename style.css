@@ -50,10 +50,6 @@ body {
    height: 100%;
 }
 
-.about {
-   flex: 1 0 auto;
-   padding: 2.5em 0;
-}
 h1,
 h2 {
    text-transform: uppercase;
@@ -109,7 +105,7 @@ h2 {
 .footer-info {
    flex: 0 0 auto;
    background: #5a5572;
-   box-shadow: rgb(77 72 97) 19px -20px 60px, rgb(104 98 131) -20px 20px 60px;
+   /* box-shadow: rgb(77 72 97) 19px -20px 60px, rgb(104 98 131) -20px 20px 60px; */
    padding: 3em 0 2em;
 }
 .footer-info__container {
