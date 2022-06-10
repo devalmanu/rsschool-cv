@@ -53,7 +53,7 @@ li {
 }
 
 li + li {
-   margin-top: 0.4em;
+   margin-top: 0.2em;
 }
 
 .fa,
@@ -64,7 +64,7 @@ li + li {
 
 li .fa,
 li .fab {
-   margin-right: 0.3em;
+   margin-right: 0.8em;
    color: #ffffff;
 }
 
@@ -81,15 +81,12 @@ a:active {
 }
 
 .site-container {
-   /* display: flex;
-   flex-direction: column; */
    height: 100%;
    padding: 15px 0;
 }
 
 .about {
    flex: 1 0 auto;
-   /* padding: 2.5em 0; */
 }
 .visually-hidden {
    display: none;
@@ -181,11 +178,14 @@ aside h3 {
    width: 205px;
    height: 238px;
 }
-/* констаткты */
+/* контакты */
 .contact ul {
    display: flex;
    flex-direction: column;
 }
+.contact ul, .skills ul {
+   padding-top: 6px;
+} 
 .contact li p,
 .contact li a {
    display: flex;
@@ -195,6 +195,7 @@ aside h3 {
    font-weight: 400;
    white-space: nowrap;
 }
+
 .title-text {
    font-size: 30px;
    text-align: center;
@@ -324,6 +325,12 @@ aside h3 {
    flex-basis: 100%;
    font-weight: 300;
 }
+.experience > ol > li > p {
+   font-weight: 600;
+}
+.summary, .experience {
+   margin-bottom: 18px;
+}
 
 .education ol > li {
    font-weight: 300;
@@ -333,12 +340,16 @@ aside h3 {
    margin-top: 1em;
 }
 
-.education ol > li div,
 .experience ol > li header {
    display: flex;
    flex-direction: row;
 }
-
+.education ol > li div > p {
+   font-weight: 600;
+}
+.education ol > li div > span:last-child {
+   float: right;
+}
 .experience ol > li > span,
 .education ol > li p,
 .experience ol > li header p {
