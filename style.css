@@ -26,7 +26,7 @@ ul {
 a {
    text-decoration: none;
    color: rgb(247, 245, 159);
-   margin-left: 10px;
+   /* margin-left: 10px; */
    font-weight: 500;
    transition: 0.35s linear;
 }
